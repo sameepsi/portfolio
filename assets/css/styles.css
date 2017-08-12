@@ -502,12 +502,12 @@ iframe {
 .footer {
   background: #32383e;
   color: #fff;
-  padding: 10px 0;
+  
 }
 .footer .copyright {
   line-height: 1.6;
   color: #a1aab4;
-  font-size: 14px;
+  font-size: 8px;
 }
 .footer a {
   color: #fff;
@@ -535,6 +535,24 @@ iframe {
   .project-image {
     margin-bottom: 15px;
   }
+}
+
+#scrollBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  z-index: 99;
+  border: none;
+  outline: none;
+
+  cursor: pointer;
+  padding: 15px;
+
+}
+
+#scrollBtn:hover {
+  background-color: #555;
 }
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
