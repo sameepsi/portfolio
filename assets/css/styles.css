@@ -162,10 +162,13 @@ iframe {
 .header .profile-content .social a:hover {
   background: #778492;
 }
-.header .profile-content .social a .fa {
+.social a .fa {
   font-size: 20px;
   padding-top: 8px;
 }
+
+
+
 /* ======= Sections======= */
 .sections-wrapper {
   padding-top: 60px;
@@ -183,6 +186,24 @@ iframe {
   margin-bottom: 30px;
   color: #545e69;
   font-size: 24px;
+}
+.footer .list-inline li:hover{
+  background: rgba(255,255,255,0.05);
+	color: #fff;
+  cursor: pointer;
+}
+
+.footer .list-inline {
+  float:left;
+  margin:0;
+  margin-bottom: 5px;
+}
+.footer .container{
+  margin: 0 ;
+}
+.footer .list-inline li{
+  margin:0 5px;
+  padding:15px 15px;
 }
 .section .content .more-link .fa {
   margin-right: 5px;
@@ -502,13 +523,17 @@ iframe {
 .footer {
   background: #32383e;
   color: #fff;
-  
+
 }
 .footer .copyright {
   line-height: 1.6;
   color: #a1aab4;
-  font-size: 8px;
+  font-size: 16px;
+  margin:15px 0;
+  display: inline-block;
 }
+
+
 .footer a {
   color: #fff;
 }
@@ -562,4 +587,15 @@ iframe {
   .container {
     width: 1360px;
   }
+}
+
+/*My custom css*/
+.service-list {
+    margin-bottom: 15px;
+}
+.service-list li {
+    margin-bottom: 15px;
+}
+.service-list .fa {
+    color: #00BCD4;
 }
