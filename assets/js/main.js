@@ -49,7 +49,30 @@ function notify(){
   });
 }
 jQuery(document).ready(function($) {
+  $('#exampleModal').on('show.bs.modal', function (event) {
+    var target = $(event.relatedTarget); // Button that triggered the modal
+    var title = target.data('title'); // Extract info from data-* attributes
+    var imgSrc = target.data('src');
+    var imgAlt = target.data('alt');
+    var description = target.data('description');
+    var client = target.data('client');
+    var duration = target.data('duration');
+    var testimonial = target.data('testimonial');
+    // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+    // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+    var modal = $(this)
+    modal.find('#project-title').text(title);
+    modal.find('.modal-title').text(title);
 
+    modal.find('#project-description').text(description);
+    modal.find('#project-client').text(client);
+    modal.find('#project-duration').text(duration);
+    modal.find('#project-testimonial').text(testimonial);
+    modal.find('#project-image').attr("src", imgSrc);
+    modal.find('#project-image').attr("alt", imgAlt);
+
+
+  })
 
   window.onscroll = function() {scrollFunction()};
 

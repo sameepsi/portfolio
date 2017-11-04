@@ -599,3 +599,19 @@ iframe {
 .service-list .fa {
     color: #00BCD4;
 }
+.carousel-control.left {
+  background-image: none
+}
+.carousel-control.right {
+  background-image: none
+}
+
+.project-modal-content{
+  padding-left: 10px;
+}
+
+.carousel img {
+  width: auto;
+
+  max-height: 348px;
+}
