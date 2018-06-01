@@ -322,11 +322,21 @@ iframe {
   margin-bottom: 30px;
 }
 .experience .item .title {
-  font-size: 16px;
+  color: #3863a0;
+  font-size: 18px;
   margin-top: 0;
   margin-bottom: 5px;
   line-height: 1.5;
 }
+
+.experience .item .company {
+  
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 5px;
+  line-height: 1.5;
+}
+
 .experience .item .title .place {
   color: #999;
   font-weight: normal;
@@ -615,3 +625,4 @@ iframe {
 
   max-height: 348px;
 }
+
